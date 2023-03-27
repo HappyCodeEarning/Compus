@@ -1,0 +1,3 @@
+<picker bindchange="bindPickerChange" class="search" value='{{index}}' range='{{array}}'>
+<view>你需要搜索：{{array[index]}}</view>
+</picker>

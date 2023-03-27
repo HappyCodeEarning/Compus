@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/question/question",
+    "pages/course/course",
+    "pages/guide/guide",
+    "pages/my/my"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "校园助手",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list":[{
+      "pagePath": "pages/question/question",
+      "text": "学业问答"
+    }, {
+      "pagePath": "pages/course/course",
+      "text": "课程资讯"
+    },{
+      "pagePath": "pages/guide/guide",
+      "text": "校园指南"
+    },{
+      "pagePath": "pages/my/my",
+      "text": "我的"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}
