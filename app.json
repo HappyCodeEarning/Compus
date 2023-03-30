@@ -1,4 +1,8 @@
 {
+  "usingComponents": {
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index"
+  },
   "pages":[
     "pages/question/question",
     "pages/course/course",
@@ -12,6 +16,7 @@
     "navigationBarTextStyle":"black"
   },
   "tabBar":{
+    "custom":true,
     "list":[{
       "pagePath": "pages/question/question",
       "text": "学业问答"
